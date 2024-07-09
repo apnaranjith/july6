@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  *{
+     margin:0; 
+
+  }
+  .container{
+    width:100vw;
+    background-color:black;
+    height:7vh;
+    position:relative;
+
+  }
+
+  div > .item {
+   margin:10px;
+   color:white;
+  }
+  .item7{
+    position:absolute;
+    right:0px;
+
+  }
+  .item{
+    display:none;
+  }
+  @media only screen and (min-width:601px){
+    .item{
+      display:inline-block;
+    }
+  }
+  .item:hover{
+    cursor:pointer;
+    background-color:azure;
+    opacity:0.8;
+    color:black;
+  }
+  
+  
+  
+</style>
+<body>
+  <!-- made header bar responsive and added 
+   few features to it by using media queries and pseudo class  -->
+  <div class="container">
+<span class=" item item1 "><ion-icon name="logo-facebook" ></ion-icon></span>
+<span class="item item2"><ion-icon name="logo-instagram" ></ion-icon></span>
+<span class="item item3"><ion-icon name="logo-snapchat" ></ion-icon></span>
+<span class="item item4"><ion-icon name="logo-whatsapp" ></ion-icon></span>
+<span class="item item5"><ion-icon name="logo-twitter" ></ion-icon></span>
+
+<span class="item item6"><ion-icon name="logo-linkedin" ></ion-icon></span>
+<span class="item item7"><ion-icon name="search-outline" ></ion-icon></span>
+
+
+
+
+  
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</body>
+</html>
